@@ -1,0 +1,161 @@
+body
+{
+	padding:0;
+	margin: 0;
+}
+
+img {
+	max-width:270px;
+}
+/*
+balise 
+{
+    font-family: ; 
+}
+*/
+
+.connexion
+{
+	background-color :#2C7DE9;
+	color:#ffffff;
+	outline :none;
+	border:4px;
+	width :120px;
+	margin-left:10px;
+	font-size:15px;
+	font-weight:700px;
+	border-radius:5px;
+	text-align:center;
+	padding: 9px;
+
+}
+
+.connexion:hover
+{
+	background: #2C7DE9F0;
+}
+
+.menu
+{
+	display: flex;
+	justify-content: flex-end;
+	margin: 15px;
+	font-size: 15px;
+	font-family: Helvetica;
+}
+
+.menu li
+{
+	list-style: none;
+	display: inline;
+	font-family: Helvetica;
+	color:black;
+	margin-left: 10px;
+
+
+}
+
+.menu li a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.menu_liens
+{
+	margin-top: 10px;
+}
+
+.logo
+{
+	text-align: center;
+	margin-top:140px;
+	margin-bottom:15px;
+}
+
+.logo_applications
+{
+	margin-top: 5px;
+}
+
+.recherche
+{
+	display: flex;
+	justify-content: center;
+
+}
+
+.recherche button
+{
+
+    border-radius: 5px;
+    background-color:#F8F9FA;
+    color:black;
+    border: 0px;
+    padding: 13px;
+}
+
+.searchbar 
+{
+  background: url('images/loupe.png') no-repeat scroll 7px 7px;
+  background-size: 25px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  height: 20px;
+  padding-left: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+  font-size: 20px;
+  background-color: #fff;
+  width: 500px;
+
+}
+
+.searchbar:hover
+{
+	box-shadow: 1px 1px 1px 1px grey;
+}
+
+.barre
+{
+	justify-content: center;
+	display:flex;
+	margin-bottom: 15px;
+}
+
+footer
+{
+	position: fixed;
+	bottom: 0;
+	width :100%;
+	margin: 0;
+	background-color: #F2F2F2;
+	color: grey;
+	font-family: Helvetica;
+	font-size:15px;
+	
+
+}
+
+.bas_page
+{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.bas_page a 
+{
+	padding: 10px;
+	text-decoration: none;
+	color: grey;
+	font-family: Helvetica;
+	font-size: 13px;
+}
+
+p
+{
+	margin: 10px;
+	padding: 7px;
+}
